@@ -2,7 +2,7 @@ public class SolidGeometry {
 	final static int e = 11;
 	
 	// The 3-dimension Array that represents the Space
-	private static int[][][] space = new int[e][e][e]; // Eleven was choiced to allow the point space[6][6][6] to be the origin
+	private static int[][][] space = new int[e][e][e]; // Eleven was choiced to allow the point space[5][5][5] to be the origin
 	
 	// If space[i][j][k] == 1, then it's space is occupied
 	// Else if space[i][j][k] == 0, then there's no point in it
