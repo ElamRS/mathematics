@@ -3,7 +3,7 @@ package geometryStudies;
 public class PolyhedronsVolumes {
 	// Volume of a Cube
 	public static double cubeVolume(double edge) {
-		// Given a cube of arest of size h, then it's volume is V = h^3
+		// Given a cube of edge of size h, then it's volume is V = h^3
 		double volume = edge*edge*edge;
 		// Return the volume
 		return volume;
