@@ -7,11 +7,6 @@ public class SolidGeometry {
 	// If space[i][j][k] == 1, then it's space is occupied
 	// Else if space[i][j][k] == 0, then there's no point in it
 	
-	public static void main(String[] args) {
-		createRegQuadPrism(9, 5);
-		print3Din2D();
-	}
-	
 	// Method to populate the space with zero values (void) 
 	public static void clearSpace() {
 		for (int i=0; i<e; ++i) {
