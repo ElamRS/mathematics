@@ -2,7 +2,7 @@ package geometryStudies;
 
 /*
  	* What is a Sphere?
- 	* 	A sphere could be defined as the reunion of all points in space at the same
+ 	* 	A sphere could be defined as the set of all points in space at the same
  	* 	or minor distance from the a given point O, center of the sphere, as the size
  	* 	of a segment called the radius of the sphere.
  	* 
