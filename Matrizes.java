@@ -3,25 +3,8 @@ package geometryStudies;
 // Esse arquivo irá conter métodos que implementam 
 // conhecimentos relacionados ao estudo de matrizes (matemática)
 
-// Checa se a ordem da matriz passada é válida
 public class Matrizes {
-	public static void main(String[] args) {
-		// Código para rodar e testar o funcionamento dos métodos
-		int m = 2; // Número de linhas
-		int n = 2; // Número de colunas
-		
-		// Declaração das Matrizes
-		double[][] A = {{1, 2}, {3, 4}};
-		double[][] B = {{2, 2}, {2, 2}};
-		
-		exibirMatriz(matrizTransposta(A), m, n);
-		
-		/*
-		 * A = | 1 2 |  ==> At = | 1 3 |
-		 * 	   | 3 4 |			 | 2 4 |
-		*/
-	}
-	
+	// Checa se a ordem da matriz passada é válida
 	public static boolean isAMatrix(int m, int n) {
 	    if (m<0 || n<0) {
 	        System.out.println("Não é uma matriz, pois o número de linhas ou de colunas é negativo.");
@@ -85,22 +68,6 @@ public class Matrizes {
 
 	    return At;
 	}
-	
-	// Método para multiplicar duas matrizes
-		public static double[][] multMatriz(double[][] A, double[][] B) {
-			// Dadas as matrizes A e B, a matriz produto P existe se, e somente se, o número
-			// de colunas de A for igual ao número de linhas de B, isto é, se A for possuir ordem (M x N) e B (N X P)
-			
-			double[][] P = new double[A.length][B[0].length]; 
-			
-			// Checa se o número de colunas de A é igual ao de linhas de B
-			if (A[0].length == B.length) {
-				
-			}
-			
-			return P;
-		}
-	
 	
 	// Método para exibir as matrizes
 	public static void exibirMatriz(double[][] A, int m, int n) {
